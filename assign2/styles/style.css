@@ -1,0 +1,256 @@
+/*
+filename: Evolutionary of Modern Computing
+author: Khan, Long, Saad, Kim
+created:16/4/2023
+last modified:28/4/2023
+description: css for all html files
+*/
+/* all pages*/
+body
+{font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-left:0;background-image: linear-gradient( to right, #decba4, #3e5151);}
+h1
+{
+font-size: 250%;
+text-align: center;
+clear:both;
+margin-bottom: 10px;
+color: white;
+}
+p
+{
+    font-size :18px;
+    text-indent:50px;
+    text-align: justify;
+}
+hr
+{
+    display: block;
+    height: 50px;
+    border:none;
+}
+h2{
+    color: #0078a5;
+    font-size:30px;
+    text-indent:50px;
+}
+.exception{text-indent:0%}
+/*header*/
+header
+{
+    border-width: 100%;
+    padding-bottom:48px;
+    margin-bottom: 10px;
+}
+#header1 
+{
+    text-indent:0%;
+    float:left;
+    color: gray;
+    margin-top:0px;
+    position:static;
+}
+#header2 
+{
+    text-indent:0%;
+    float:right;
+    color:gray;
+    margin-top: 7px;
+    align-items: center;
+    position:static;
+}
+/* navigation bar*/
+#intro a
+{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-indent: 0%;
+    font-size: 150%;
+    width: 95% ;
+    height:45px;
+    padding: 2%;
+    border-radius: 20px;
+    background-color:orange;
+    font-weight: bold;
+    color: black;
+    position:relative;
+    animation-name:appearing;
+    animation-duration: 1.5s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+}
+#intro a:hover
+{
+    background-color: rgb(100, 215, 255);
+    color:black;
+
+}
+@keyframes appearing {
+   0%{opacity: 1; top:0px;}
+   100%{opacity:0; top:40px; }
+    
+}
+nav{
+    text-align: right;
+    width: 100%;
+    margin-top: -8px;
+    margin-right:-8px;
+    margin-left:-8px;
+    float:right;
+    display:block;
+    font-size: 125%;
+    background-color:#2f3132;
+    padding-left:auto;
+    padding-right:auto;
+    position:fixed;
+    z-index:1;
+}
+nav a{
+    display:inline-block;
+    background-color: #2f3132;
+    font-weight: bold ;
+    padding: 20px 28px;
+    margin-right:-9px;
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: rgb(100, 215, 255);
+    color:black;
+}
+/*introduction page*/
+#introimg
+{
+    position:relative;
+    animation-name:appearing;
+    animation-duration: 1.5s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+    width:70%;
+}
+#introbody
+{
+    background-image: url(images/pro.png);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position-x:center;
+    background-position-y: bottom;
+}
+#intro p
+{
+    padding:25% 10% 25% 40%;
+    font-weight: bold;
+    color:white;
+    font-size: 125%;
+}
+#container
+{
+    display: grid;
+    align-items: center; 
+    grid-template-columns:50% 60%;
+    column-gap: -10px;
+}
+/*topic page*/
+img{display:block;
+    width: 30%;
+    height:10%;
+    margin-left: auto;
+    margin-right: auto;
+    clear:both;
+}
+.caption,figcaption
+{
+    text-align: center;
+}
+article
+{
+    max-width:1200px;
+    margin: 0 auto;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow:0 3px 26px 0 rgba(0,0,0,0.20);
+    padding:20px 50px;
+
+}
+table
+{
+
+    margin: auto;
+    border: 3px solid black;
+    margin-bottom:  20px;
+    margin-top: 50px;
+}
+td,th,tr
+{
+    border:1px solid black;
+    text-align: center;
+    padding-left:12px;
+    padding-right:12px;
+}
+th
+{
+    background-color: cornflowerblue;
+}
+td
+{
+    background-color:lightskyblue;
+}
+#abovefact
+{
+    clear:right;
+    float:left;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+#abovefact img
+{
+    width:100%;
+}
+aside
+{
+    float:right;
+    border:#0078a5 4px solid;
+    width:30%;
+    padding: 10px;
+    text-align: justify;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+aside p
+{
+    text-indent:0%;
+}
+#belowfact
+{
+    clear:both;
+}
+div :last-child{padding-right: 15%;padding-left:-10%;padding-bottom:7%;}
+/*footer*/
+#footer2
+{
+    font-size: 12px;
+
+}
+footer
+{
+    background-color: rgb(36,36,47);
+    height:100%;
+    width:100%;
+    margin:0 -2% -2%-2%;
+    padding:30px;
+    clear:both;
+}
+footer p
+{
+    text-align: center;
+    text-indent:0%;
+    color: rgb(227, 123, 38);
+}
+#rightpoint
+{
+    font-size: 28px;
+}
+
+

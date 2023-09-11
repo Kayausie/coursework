@@ -1,0 +1,141 @@
+/*
+filename: Evolutionary of Modern Computing
+author: Khan, Long, Saad, Kim
+created:16/4/2023
+last modified:28/4/2023
+description: css particularly for quiz page
+*/
+body{
+    background-color: lightblue;
+    padding: 0 10px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.body{
+    width: 50%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.125);
+    border: solid black 4px;
+}
+#introquiz
+{
+    text-align: center;
+    color:black;
+    font-weight: bold ;
+    text-transform: uppercase;
+}
+#checkbox
+{
+    text-indent: 50px;
+}
+#Smit
+{
+    width: 33% ;
+    height:45px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    background-color:orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    border-radius:20px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Rset
+{
+    float:right;
+    width:33%;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:orange;
+    border-radius:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:black ;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Smit:hover{
+    background-color: rgb(100, 215, 255);
+    color:black;
+    cursor:pointer;
+}
+#Rset:hover{
+    background-color: rgb(100, 215, 255);
+    color:black;
+    cursor:pointer;
+}
+textarea
+{
+   margin-left:50px;
+   margin-top:4px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#present
+{
+    margin-left:50px;
+    padding-right:50%;
+    padding-bottom:20px;
+    
+}
+select
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+legend
+{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+/* animation */
+.inputBox
+{
+    position: relative;
+}
+.inputBox input
+{
+    max-width: 350px;
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.inputBox span 
+{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em; 
+    text-transform: uppercase ;
+    transition: 0.5s;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+    color: black ;
+    transform: translateX(5px) translateY(5px);
+    font-size: 0.55em;
+    padding: 0 5px;
+    background: lightblue;
+    border-left: 1px black;
+    border-right: 1px black;
+    letter-spacing: 0.2em;
+}
+
+.inputBox input:valid ,
+.inputBox input:focus
+{
+    border: 5px solid lightblue;
+    color:black;
+    border-radius: 2px;
+
+}
+
+

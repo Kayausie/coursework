@@ -1,0 +1,61 @@
+/*
+filename: Evolutionary of Modern Computing
+author: Khan, Long, Saad, Kim
+created:16/4/2023
+last modified:28/4/2023
+description: css particularly for quiz page
+*/
+/*media query for display: over 500*/
+@media only screen and (min-width:31.25em)
+{
+    nav {
+        width:100%;
+    }
+    article section {
+        width:90%;
+        float:none;
+        clear:both;
+        margin: 10%;
+    }
+    figure img {
+        width:90%;
+    }
+    ul li img {
+        width: 90%
+    }
+    aside {
+        clear:both;
+        float:none;
+        width:30%;
+        margin: 10%;
+    }
+    figure {
+        width:90%;
+    }
+    article {
+        min-width: 90%;
+    }
+}
+/* media query for display below 500*/
+@media only screen and (max-width:31.25em)
+{
+    header h1 {
+        text-align: center;
+        padding:0;
+    }
+    nav a {
+        width:30%
+    }
+    nav a {
+        width:43%;
+    }
+    figure img {
+        width:90%;
+    }
+    ul li img {
+        width:90%;
+    }
+    article {
+        min-width:90%;
+    }
+}
