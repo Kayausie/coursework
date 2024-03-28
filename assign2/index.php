@@ -23,7 +23,7 @@
             
             <div id="intro">
             <p >Computing is using computer technology by applying mathematics theories and algorithms to sort out some particular problems from different sectors of the world. When it comes to computing, we usually refer to information-related actions like managing, communicating, executing and embedding technical services into several fields like education, medical, trading, entertaining,…<br>
-                <a id="learnmore" href="topic.html">LEARN MORE</a>
+                <a id="learnmore" href="topic.phpl">LEARN MORE</a>
             </p>
         </div>
         </div>
