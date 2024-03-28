@@ -57,24 +57,24 @@
             <input type="text" id="present" name="question1" placeholder="Write down your answer" required="required" maxlength="100"/>
         </p>
         <p>
-            2.Which generation that transfer from physical to digital computing:
+            2.Which generation that computer transfer from physical to digital computing:
         </p>
             <!-- radio button group -->
                 <section id="radiobutton">
                 <p>
-                    <input type="radio" id="answer1radio" name="Your unit" value="late20th" required="required"/>
+                    <input type="radio" id="answer1radio" name="unit" value="late20th" required="required"/>
                     <label for="answer1radio">Late 20th century</label>
                 </p>
                 <p>
-                    <input type="radio" id="answer2radio" name="Your unit" value="early19th"/>
+                    <input type="radio" id="answer2radio" name="unit" value="early19th"/>
                     <label for="answer2radio">Early 19th century</label>
                 </p>
                 <p>
-                    <input type="radio" id="answer3radio" name="Your unit" value="20th"/>
+                    <input type="radio" id="answer3radio" name="unit" value="20th"/>
                     <label for="answer3radio">20th century</label>  
                 </p>
                 <p>
-                    <input type="radio" id="answer4radio" name="Your unit" value="21st"/>
+                    <input type="radio" id="answer4radio" name="unit" value="21st"/>
                     <label for="answer4radio">21stcentury</label>        
                 </p> 
                 </section> 
@@ -84,16 +84,16 @@
 <section id="checkbox">
     <!--check box group-->
     
-        <input type="checkbox" id="answer1checkbox" name="answer1" value="2001">
+        <input type="checkbox" id="answer1checkbox" name="answer" value="2001">
         <label for="answer1checkbox">2001</label>
 
-        <input type="checkbox" id="answer2checkbox" name="answer2" value="2002">   
+        <input type="checkbox" id="answer2checkbox" name="answer" value="2002">   
         <label for="answer2checkbox">2002</label>
   
-        <input type="checkbox" id="answer3checkbox" name="answer3" value="2003"> 
+        <input type="checkbox" id="answer3checkbox" name="answer" value="2003"> 
         <label for="answer3checkbox">2003</label>
   
-        <input type="checkbox" id="answer4checkbox" name="answer4" value="2004">     
+        <input type="checkbox" id="answer4checkbox" name="answer" value="2004">     
         <label for="answer4checkbox">2004</label>
 </section>
         <p>
@@ -113,7 +113,7 @@
             5.Give us some of your ideals and insights about computing nowadays:
             <!--input type of your choice different from above-->
             <!--Doing textarea-->
-            <textarea id="question" name="question" placeholder="Write down your answer" rows="4" cols="80" ></textarea>
+            <textarea id="question" name="question5" placeholder="Write down your answer" rows="4" cols="80" ></textarea>
 
         </p>   
     </fieldset>

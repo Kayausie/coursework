@@ -3,4 +3,6 @@
         <a href="topic.php">Detail</a>
         <a href="quiz.php">Quiz</a>
         <a href="enhancements.php">Enhancements</a>
-    </nav>
+         <a href="manage.php">Manager</a>
+      
+</nav>
